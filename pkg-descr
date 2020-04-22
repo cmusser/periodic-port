@@ -1,0 +1,9 @@
+periodic program executes one or more commands at regular intervals.
+The commands run asynchronously with respect to their timer, which
+means that an already-invoked process won't prevent the next
+invocation from starting on the desired interval. Limits on the number
+of concurrently-running copies of a process are enforced. periodic is
+a lightweight alternative to cron and supports intervals down to one
+second.
+
+WWW: https://github.com/cmusser/periodic
